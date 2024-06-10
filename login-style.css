@@ -1,0 +1,10 @@
+.container {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    background-color: rgba(46, 209, 238, 0.7);
+    position: fixed;
+    top: 30%;
+    left:35%;
+}

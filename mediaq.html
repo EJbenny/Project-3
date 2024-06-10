@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+     <title>Project 3 with media queries</title>
+    <style>
+        /* CSS for styling the navigation menu */
+        nav {
+            background-color:darkblue;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        h1{
+          color:rgb(16, 50, 201);
+          text-align: center;
+        }
+       
+        p{
+            text-wrap:stable;
+            font-size: larger;
+            color:rgb(233, 235, 239);
+          text-shadow: 5px;
+        
+        }
+        footer{
+          background-color: rgba(46, 172, 194, 0.5);
+          text-align:center;
+          
+        }
+        .container{
+                width: 1520px;
+                height: 400px;
+                background-color: rgba(156, 207, 216, 0.5);
+        }
+    </style>
+     <style>
+        /*  Smart phone      */
+        
+        @media screen and (min-width:320px )  {
+
+            body {
+                    background-image: url("city2.jpg");
+                    background-size: cover;
+                    background-position: center; 
+                    background-repeat: no-repeat;
+              }
+        }
+/*  Tablet,ipad      */    
+        
+          @media Screen and (min-width:768px) and (max-width:1024px){
+            body {
+                    background-image: url("city2.jpg");
+                    background-size: cover;
+                    background-position: center; 
+                    background-repeat: no-repeat;
+              }
+          }
+     
+        /* Desktops and Laptops asfsdf     */    
+        
+        @media Screen and (min-width:1224px) {
+              body {
+                    background-image: url("city2.jpg");
+                    background-size: cover;
+                    background-position: center; 
+                    background-repeat: no-repeat;
+              }
+          }
+
+</style>
+</head>
+<body>
+  <h1><img align="left" src="man.jpg" width="100" height="100">Manchester City Fan Club Website  
+        <img align="right" src="air.jpg"width="100" height="100"></h1>
+    <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="Login.html">Fan Login</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="Frame.html">Hall Of Frame</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <p>This is a sample website with a navigation menu.</p>
+    </div>
+    <footer >
+      <p>&copy; 2024 MAN CITY. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>

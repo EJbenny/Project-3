@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>tickects</title>
+        <style>
+            .container{
+                background-image: url(ticket.png);
+                width: 1000px;
+                height: 600px;
+                background-color: rgba(58, 197, 231, 0.5);
+                position: fixed;
+                top: 10%;
+                left:17%;
+            }
+            form{
+                font-size: large;
+                font-weight: 200;
+                color: rgb(255, 255, 255);
+                text-shadow: 1px 1px black;
+            }
+        </style>
+    </head>
+    <body>
+        <body bgcolor="skyblue"></body>
+        <center>
+        <div class="container">
+        <center><h2>Match Tickects</h2></center>
+        <form  align="center">
+        Full Name: <br><input type="text" name="name" placeholder="Enter Name"><br> 
+        Age: <br><input type="text" alert="Only 18+ Age Allowed" placeholder="Enter age"><br> 
+        Date of Match : <br><input type="Date" name="DOM" placeholder="Enter Day"><br><br>
+        seat category: <br><input type="radio" name="seat">Bottom Tier
+        <input type="radio" name="seat">Top Tier <input type="radio" name="seat">Vip seats<br><br>
+        Method of Payment: <br> <select name="Payment"><br>
+            <option value="I">Gpay</option>
+            <option value="II">Net Banking</option>
+            <option value="III">Other UPI pay</option>
+            </select><br><br>
+        <input type="submit">
+    </form>
+    </div>
+    </center>
+    </body>
+</html>
